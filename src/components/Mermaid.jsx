@@ -1,0 +1,67 @@
+import { useEffect, useId, useState } from "react";
+import { useTheme } from "next-themes";
+import mermaid from "mermaid";
+import { cn } from "@/lib/utils";
+
+export default function Mermaid({ chart, className }) {
+  const { resolvedTheme } = useTheme();
+  const id = useId().replace(/:/g, "");
+  const [svg, setSvg] = useState("");
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    if (!chart?.trim()) return;
+
+    let cancelled = false;
+
+    mermaid.initialize({
+      startOnLoad: false,
+      securityLevel: "loose",
+      theme: resolvedTheme === "dark" ? "dark" : "default",
+    });
+
+    mermaid
+      .render(id, chart)
+      .then(({ svg: out }) => {
+        if (!cancelled) {
+          setSvg(out);
+          setError(null);
+        }
+      })
+      .catch((err) => {
+        if (!cancelled) {
+          setError("Mermaid diagram failed to render");
+          console.error(err);
+        }
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [chart, id, resolvedTheme]);
+
+  if (error) {
+    return (
+      <div
+        className={cn(
+          "my-6 rounded-md border border-destructive/30 bg-destructive/5 p-4 text-sm text-destructive",
+          className,
+        )}
+      >
+        {error}
+      </div>
+    );
+  }
+
+  return (
+    <div
+      className={cn(
+        "my-8 overflow-x-auto rounded-lg bg-muted/30 p-4",
+        "dark:border dark:border-border/70 dark:bg-muted/30",
+        className,
+      )}
+    >
+      <div dangerouslySetInnerHTML={{ __html: svg }} />
+    </div>
+  );
+}

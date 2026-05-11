@@ -1,0 +1,20 @@
+{
+  "education": [
+    {
+      "name": "Dr. A. P. J. Abdul Kalam Technical University (AKTU), Lucknow",
+      "href": "https://aktu.ac.in",
+      "logo": "/img/aktu.png",
+      "positions": [
+        {
+          "title": "B.Tech in Computer Science",
+          "start": "Jul 2019",
+          "end": "May 2023",
+          "description": [
+            "CGPA: 8.30",
+            "Courses: Data Structures and Algorithms, Analysis of Algorithms, Artificial Intelligence, Machine Learning, DBMS, Compiler Design, Web Design, Big Data, Software Project Management"
+          ]
+        }
+      ]
+    }
+  ]
+}

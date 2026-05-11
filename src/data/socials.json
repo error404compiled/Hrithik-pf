@@ -1,0 +1,19 @@
+{
+  "socials": [
+    {
+      "name": "LinkedIn",
+      "href": "https://www.linkedin.com/in/hrithiksharma900/",
+      "icon": "linkedin"
+    },
+    {
+      "name": "GitHub",
+      "href": "https://github.com/error404compiled",
+      "icon": "github"
+    },
+    {
+      "name": "Email",
+      "href": "mailto:HrithikSharma900@gmail.com",
+      "icon": "mail"
+    }
+  ]
+}

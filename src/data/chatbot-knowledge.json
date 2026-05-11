@@ -1,0 +1,223 @@
+{
+  "about": {
+    "name": "Hritik Sharma",
+    "greeting": "Hi, I'm Hritik. 👋",
+    "tagline": "Software Engineer from Delhi NCR, India 🇮🇳",
+    "description": "Building AI/ML systems at MAQ Software. I specialize in machine learning, NLP, computer vision, and data-driven solutions—from swarm drones and defense tech to predictive analytics and production ML pipelines.",
+    "location": "Delhi NCR, India",
+    "highlights": [
+      "Strong programming fundamentals and competitive programming background; excels in data structures, algorithms, and problem-solving.",
+      "Deep expertise in AI/ML: production pipelines, NLP, computer vision, reinforcement learning, and agentic AI.",
+      "Proven track record at MAQ Software and O2i with Fortune 500 clients (Microsoft, PepsiCo, Staples, Kimberly-Clark).",
+      "Full-stack technical breadth: from low-level ML models to scalable data pipelines and web applications."
+    ],
+    "escalationText": "For professional inquiries, connect on LinkedIn",
+    "linkedInUrl": "https://www.linkedin.com/in/hrithiksharma900/"
+  },
+  "experience": [
+    {
+      "company": "MAQ Software",
+      "href": "https://www.linkedin.com/company/maq-software",
+      "positions": [
+        {
+          "title": "Software Engineer 2",
+          "start": "Sep 2025",
+          "end": null,
+          "description": [
+            "Building AI/ML systems. Focus on ML/AI, NLP, and Agentic AI solutions."
+          ]
+        },
+        {
+          "title": "Software Engineer 1 / Data Scientist",
+          "start": "Jul 2023",
+          "end": "Oct 2025",
+          "description": [
+            "Built an AI-driven data alerting platform for Microsoft, integrating a natural-language chatbot for data insights with prompt-based rule creation to detect anomalies and trigger notifications.",
+            "Designed scalable data pipelines using Spark, Delta Lake, and Databricks, reducing data processing time by 40% and enabling near real-time survey insights extraction.",
+            "Developed a production-ready predictive ML pipeline for PepsiCo for regression and classification (units sold, customer purchase likelihood).",
+            "Optimized forecasting models (ARIMA, SARIMAX, Prophet, XGBoost, LightGBM, LSTM/GRU), achieving 10–15% reduction in forecasting errors.",
+            "Collaborated with global clients (PepsiCo, Staples, Kimberly-Clark, Microsoft) on AI assistant chatbots and ML solutions.",
+            "Orchestrated AI agent integrations using LangChain and GPT APIs for phone-based interactions and CRM task automation."
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Oxygen 2 Innovation (O2i Technologies)",
+      "href": "https://www.linkedin.com/company/oxygen-to-innovation---o2i",
+      "positions": [
+        {
+          "title": "Machine Learning Engineer",
+          "start": "Mar 2022",
+          "end": "Jul 2023",
+          "description": [
+            "Developed computer vision algorithms for autonomous kamikaze drones using YOLOv5, Faster R-CNN, and ResNet; improved target recognition accuracy by 35%.",
+            "Enhanced AI-based Ground Control Stations for HALE drones with Reinforcement Learning (DQN, PPO), reducing mission planning time by 40%.",
+            "Designed a real-time AI-based stress detection system with sensor fusion (Random Forest, SVM, LSTM), achieving 90%+ accuracy.",
+            "Built a fighter airplane simulator with ML-Agents and CNN-based perception for pilot training. Contributed to Mehar Baba's Swarm Drone Competition (Indian Air Force)."
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Neuherbs",
+      "href": "https://www.linkedin.com/company/neuherbs",
+      "positions": [
+        {
+          "title": "Software Engineer (Intern)",
+          "start": "Jan 2022",
+          "end": "Apr 2022",
+          "description": [
+            "Digital marketing and tech: SEO, PPC, Google AdSense; created 1000+ backlinks. Built 5+ Python web scraping scripts (BeautifulSoup4) for Amazon, Flipkart, and other platforms."
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Tech Mahindra",
+      "href": "https://www.linkedin.com/company/tech-mahindra",
+      "positions": [
+        {
+          "title": "Freelance — Customer Support Associate",
+          "start": "Jul 2021",
+          "end": "Dec 2021",
+          "description": [
+            "Supported 1000+ customer inquiries across two processes; focused on customer service, communication, and product knowledge."
+          ]
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "name": "Dr. A. P. J. Abdul Kalam Technical University (AKTU), Lucknow",
+      "href": "https://aktu.ac.in",
+      "degree": "B.Tech in Computer Science",
+      "start": "Jul 2019",
+      "end": "May 2023",
+      "cgpa": "8.30",
+      "courses": [
+        "Data Structures and Algorithms",
+        "Analysis of Algorithms",
+        "Artificial Intelligence",
+        "Machine Learning",
+        "DBMS",
+        "Compiler Design",
+        "Web Design",
+        "Big Data",
+        "Software Project Management"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Social Distance Detector",
+      "description": "Deep learning model for real-time social distancing detection using YOLO-COCO (80+ objects), with Euclidean distance-based compliance monitoring. Built with computer vision and object detection.",
+      "tags": ["Python", "YOLO", "OpenCV", "Computer Vision", "Deep Learning"],
+      "sourceUrl": "https://github.com/error404compiled/Social-distance-detection"
+    },
+    {
+      "name": "Hate Speech Detection on Tweet",
+      "description": "NLP-based app for detecting hate speech in tweets. Data from 10+ Kaggle Twitter Sentiment datasets; EDA, count-vector features, deployed with Streamlit on Heroku.",
+      "tags": ["Python", "NLP", "Streamlit", "Heroku", "scikit-learn"],
+      "sourceUrl": "https://github.com/error404compiled/Hate-speach-Detection-on-tweet"
+    },
+    {
+      "name": "WhatsApp Chat Analysis",
+      "description": "Analyzed WhatsApp chat data for insights: visualization, text analysis, chat patterns, message frequency, active hours, and engagement metrics.",
+      "tags": ["Python", "Data Analysis", "Visualization", "Pandas"],
+      "sourceUrl": "https://github.com/error404compiled/WhatsApp-Chat-Analysis-Main"
+    },
+    {
+      "name": "Code Scraper Black Box",
+      "description": "Web scraping tool that automates Google searches, extracts code snippets from sites like GeeksforGeeks using requests and BeautifulSoup, and outputs organized results to out.txt.",
+      "tags": ["Python", "BeautifulSoup", "Web Scraping", "Requests"],
+      "sourceUrl": "https://github.com/error404compiled/Code-Scraper-Black-Box"
+    }
+  ],
+  "skillsAndSoftware": {
+    "programmingLanguages": ["Python", "SQL"],
+    "mlAndAI": [
+      "Machine Learning",
+      "Deep Learning",
+      "NLP (Natural Language Processing)",
+      "Computer Vision",
+      "Reinforcement Learning (DQN, PPO)",
+      "YOLOv5",
+      "Faster R-CNN",
+      "ResNet",
+      "CNN",
+      "LSTM",
+      "GRU",
+      "Random Forest",
+      "SVM",
+      "XGBoost",
+      "LightGBM",
+      "scikit-learn",
+      "ARIMA",
+      "SARIMAX",
+      "Prophet",
+      "ML-Agents"
+    ],
+    "dataAndPlatforms": [
+      "Apache Spark",
+      "Delta Lake",
+      "Databricks",
+      "LangChain",
+      "GPT APIs",
+      "Heroku",
+      "Streamlit"
+    ],
+    "toolsAndLibraries": [
+      "OpenCV",
+      "BeautifulSoup",
+      "Pandas",
+      "Requests",
+      "Google AdSense",
+      "SEO",
+      "PPC"
+    ],
+    "fundamentals": [
+      "Data Structures and Algorithms",
+      "Analysis of Algorithms",
+      "Competitive Programming",
+      "DBMS",
+      "Compiler Design",
+      "Software Project Management",
+      "Web Design",
+      "Big Data"
+    ]
+  },
+  "contact": {
+    "linkedIn": "https://www.linkedin.com/in/hrithiksharma900/",
+    "github": "https://github.com/error404compiled",
+    "email": "HrithikSharma900@gmail.com",
+    "resumeUrl": "/resume.pdf",
+    "website": "https://hritiksharma.me"
+  },
+  "siteInfo": {
+    "name": "HritikSharma.me",
+    "description": "Hritik Sharma — AI/ML Engineer. Portfolio and blog.",
+    "routes": [
+      { "path": "/", "name": "home", "description": "Portfolio overview, recent projects, and blog highlights" },
+      { "path": "/projects", "name": "projects", "description": "Portfolio projects showcase" },
+      { "path": "/blog", "name": "blog", "description": "Blog posts and technical updates" },
+      { "path": "/contact", "name": "contact", "description": "Contact form" },
+      { "path": "/privacy", "name": "privacy", "description": "Privacy policy" },
+      { "path": "/resume.pdf", "name": "resume", "description": "Hritik's resume CV in PDF" }
+    ],
+    "privacyNote": "The site doesn't track users. Chatbot messages may be stored to improve the site. No ads, no tracking cookies. Contact: HrithikSharma900@gmail.com or the contact form for questions."
+  },
+  "persona": {
+    "role": "Hritik Support",
+    "tone": "Friendly, confident, and professional. You represent Hritik and his portfolio. Present him as the strong engineer he is: sharp at programming, algorithms, and problem-solving; experienced in competitive programming; and highly skilled across a wide range of software, frameworks, and tools.",
+    "instructions": [
+      "Answer only from the knowledge provided. Do not invent roles, companies, projects, or skills.",
+      "When discussing Hritik's abilities, be confident and specific: cite his experience, projects, and the technologies he has used in production.",
+      "Highlight his programming strength, algorithm knowledge, competitive programming background, and breadth of software (ML, NLP, computer vision, data pipelines, web, etc.).",
+      "Mention specific achievements (e.g., 40% faster pipelines, 35% better accuracy, 90%+ stress detection, work with Microsoft/PepsiCo, Indian Air Force swarm drone competition) when relevant.",
+      "For questions outside this context, politely say you only know about Hritik's portfolio and suggest visiting hritiksharma.me, /projects, /blog, or connecting on LinkedIn.",
+      "Suggest specific pages (/projects, /blog, /contact) or his resume and LinkedIn when appropriate."
+    ]
+  }
+}

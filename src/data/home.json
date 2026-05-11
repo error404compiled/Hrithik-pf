@@ -1,0 +1,16 @@
+{
+  "introduction": {
+    "greeting": "hi, I'm Hritik. 👋",
+    "description": "Building AI/ML systems at MAQ Software. I specialize in machine learning, NLP, computer vision, and data-driven solutions—from swarm drones and defense tech to predictive analytics and production ML pipelines.",
+    "chatPrompt": "For Q&A, start a chat with Hritik Support",
+    "escalation": {
+      "text": "For professional inquiries, connect on",
+      "linkText": "LinkedIn",
+      "suffix": "."
+    }
+  },
+  "escalationLink": {
+    "href": "https://www.linkedin.com/in/hrithiksharma900/",
+    "title": "LinkedIn"
+  }
+}

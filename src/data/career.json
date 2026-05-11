@@ -1,0 +1,79 @@
+{
+  "career": [
+    {
+      "name": "MAQ Software",
+      "href": "https://www.linkedin.com/company/maq-software",
+      "logo": "/img/maq.png",
+      "positions": [
+        {
+          "title": "Software Engineer 2",
+          "start": "Sep 2025",
+          "description": [
+            "Building AI/ML systems. Focus on ML/AI, NLP, and Agentic AI solutions."
+          ]
+        },
+        {
+          "title": "Software Engineer 1 / Data Scientist",
+          "start": "Jul 2023",
+          "end": "Oct 2025",
+          "description": [
+            "Built an AI-driven data alerting platform for Microsoft, integrating a natural-language chatbot for data insights with prompt-based rule creation to detect anomalies and trigger notifications.",
+            "Designed scalable data pipelines using Spark, Delta Lake, and Databricks, reducing data processing time by 40% and enabling near real-time survey insights extraction.",
+            "Developed a production-ready predictive ML pipeline for PepsiCo for regression and classification (units sold, customer purchase likelihood).",
+            "Optimized forecasting models (ARIMA, SARIMAX, Prophet, XGBoost, LightGBM, LSTM/GRU), achieving 10–15% reduction in forecasting errors.",
+            "Collaborated with global clients (PepsiCo, Staples, Kimberly-Clark, Microsoft) on AI assistant chatbots and ML solutions.",
+            "Orchestrated AI agent integrations using LangChain and GPT APIs for phone-based interactions and CRM task automation."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Oxygen 2 Innovation (O2i Technologies)",
+      "href": "https://www.linkedin.com/company/oxygen-to-innovation---o2i",
+      "logo": "/img/o2i.png",
+      "positions": [
+        {
+          "title": "Machine Learning Engineer",
+          "start": "Mar 2022",
+          "end": "Jul 2023",
+          "description": [
+            "Developed computer vision algorithms for autonomous kamikaze drones using YOLOv5, Faster R-CNN, and ResNet; improved target recognition accuracy by 35%.",
+            "Enhanced AI-based Ground Control Stations for HALE drones with Reinforcement Learning (DQN, PPO), reducing mission planning time by 40%.",
+            "Designed a real-time AI-based stress detection system with sensor fusion (Random Forest, SVM, LSTM), achieving 90%+ accuracy.",
+            "Built a fighter airplane simulator with ML-Agents and CNN-based perception for pilot training. Contributed to Mehar Baba's Swarm Drone Competition (Indian Air Force)."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Neuherbs",
+      "href": "https://www.linkedin.com/company/neuherbs",
+      "logo": "/img/neuherbs.png",
+      "positions": [
+        {
+          "title": "Software Engineer (Intern)",
+          "start": "Jan 2022",
+          "end": "Apr 2022",
+          "description": [
+            "Digital marketing and tech: SEO, PPC, Google AdSense; created 1000+ backlinks. Built 5+ Python web scraping scripts (BeautifulSoup4) for Amazon, Flipkart, and other platforms."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech Mahindra",
+      "href": "https://www.linkedin.com/company/tech-mahindra",
+      "logo": "/img/tech-mahindra.png",
+      "positions": [
+        {
+          "title": "Freelance — Customer Support Associate",
+          "start": "Jul 2021",
+          "end": "Dec 2021",
+          "description": [
+            "Supported 1000+ customer inquiries across two processes; focused on customer service, communication, and product knowledge."
+          ]
+        }
+      ]
+    }
+  ]
+}

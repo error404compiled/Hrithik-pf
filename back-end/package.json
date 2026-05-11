@@ -1,0 +1,13 @@
+{
+  "name": "portfolio-back-end",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node -e \"console.log('back-end scaffold ready')\"",
+    "bootstrap": "node scripts/bootstrap-appwrite.js"
+  },
+  "dependencies": {
+    "node-appwrite": "^13.0.0"
+  }
+}
+

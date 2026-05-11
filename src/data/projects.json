@@ -1,0 +1,56 @@
+{
+  "projects": [
+    {
+      "name": "Social Distance Detector",
+      "description": "Deep learning model for real-time social distancing detection using YOLO-COCO (80+ objects), with Euclidean distance-based compliance monitoring. Built with computer vision and object detection.",
+      "image": "/icon.svg",
+      "tags": ["Python", "YOLO", "OpenCV", "Computer Vision", "Deep Learning"],
+      "links": [
+        {
+          "name": "Source",
+          "href": "https://github.com/error404compiled/Social-distance-detection",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "Hate Speech Detection on Tweet",
+      "description": "NLP-based app for detecting hate speech in tweets. Data from 10+ Kaggle Twitter Sentiment datasets; EDA, count-vector features, deployed with Streamlit on Heroku.",
+      "image": "/icon.svg",
+      "tags": ["Python", "NLP", "Streamlit", "Heroku", "scikit-learn"],
+      "links": [
+        {
+          "name": "Source",
+          "href": "https://github.com/error404compiled/Hate-speach-Detection-on-tweet",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "WhatsApp Chat Analysis",
+      "description": "Analyzed WhatsApp chat data for insights: visualization, text analysis, chat patterns, message frequency, active hours, and engagement metrics.",
+      "image": "/icon.svg",
+      "tags": ["Python", "Data Analysis", "Visualization", "Pandas"],
+      "links": [
+        {
+          "name": "Source",
+          "href": "https://github.com/error404compiled/WhatsApp-Chat-Analysis-Main",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "Code Scraper Black Box",
+      "description": "Web scraping tool that automates Google searches, extracts code snippets from sites like GeeksforGeeks using requests and BeautifulSoup, and outputs organized results to out.txt.",
+      "image": "/icon.svg",
+      "tags": ["Python", "BeautifulSoup", "Web Scraping", "Requests"],
+      "links": [
+        {
+          "name": "Source",
+          "href": "https://github.com/error404compiled/Code-Scraper-Black-Box",
+          "icon": "github"
+        }
+      ]
+    }
+  ]
+}
