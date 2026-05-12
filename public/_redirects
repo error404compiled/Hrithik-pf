@@ -1,0 +1,5 @@
+# Chat API (must be before the SPA catch-all)
+/api/chat    /.netlify/functions/chat    200
+
+# React Router — serve index.html for direct visits to /contact, /blog, etc.
+/*           /index.html                 200

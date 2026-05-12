@@ -17,6 +17,21 @@ npm run build
 npm run preview
 ```
 
+## Netlify
+
+This repo includes **`public/_redirects`** so client-side routes work when you open URLs like `/contact` or `/blog/...` directly (otherwise Netlify returns **Page not found**).
+
+Chat uses **`/api/chat`**, implemented as **`netlify/functions/chat.js`**. In the Netlify UI, add **environment variables** (same names as local `.env`, but set on the site — they are **not** picked up from your committed `.env`):
+
+| Variable | Required | Purpose |
+|----------|----------|---------|
+| `GOOGLE_API_KEY` | Yes for chat | Gemini API key for the serverless chat handler. |
+| `GEMINI_MODEL` | No | Overrides default `gemini-2.5-flash-lite`. |
+
+Redeploy after changing variables. Keep **`netlify/functions/chatbot-knowledge.json`** in sync with **`src/data/chatbot-knowledge.json`** when you edit the bot’s knowledge.
+
+For this site’s chat and routes, leave **`VITE_API_BASE_URL` unset** on Netlify so `/api/chat` and navigation stay on the same origin as the deploy.
+
 ## Environment variables
 
 | Variable | Purpose |
