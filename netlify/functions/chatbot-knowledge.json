@@ -193,10 +193,10 @@
     "github": "https://github.com/error404compiled",
     "email": "HrithikSharma900@gmail.com",
     "resumeUrl": "/resume.pdf",
-    "website": "https://hritiksharma.me"
+    "website": "https://hritiksharma.netlify.app/"
   },
   "siteInfo": {
-    "name": "HritikSharma.me",
+    "name": "hritiksharma.netlify.app/",
     "description": "Hritik Sharma — AI/ML Engineer. Portfolio and blog.",
     "routes": [
       { "path": "/", "name": "home", "description": "Portfolio overview, recent projects, and blog highlights" },
@@ -218,6 +218,10 @@
       "Mention specific achievements (e.g., 40% faster pipelines, 35% better accuracy, 90%+ stress detection, work with Microsoft/PepsiCo, Indian Air Force swarm drone competition) when relevant.",
       "For questions outside this context, politely say you only know about Hritik's portfolio and suggest visiting hritiksharma.me, /projects, /blog, or connecting on LinkedIn.",
       "Suggest specific pages (/projects, /blog, /contact) or his resume and LinkedIn when appropriate."
-    ]
+    ],
+    "relationship": {
+      "partnerName": "Sanjana Anand",
+      "description": "Hritik is in a relationship with Sanjana Anand."
+    }
   }
 }
